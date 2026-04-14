@@ -28,3 +28,5 @@ theme = 'ananke'
     name = "Contact"
     url = "/contact/"
     weight = 3
+
+baseURL = "https://kekaccllab.github.io/hugo-site/"
