@@ -2,6 +2,7 @@ baseURL = "https://kekaccllab.github.io/hugo-site/"
 languageCode = "ja-jp"
 title = "Kekaccl Lab"
 theme = "ananke"
+canonifyURLs = true
 [taxonomies]
   category = "categories"
   tag = "tags"
