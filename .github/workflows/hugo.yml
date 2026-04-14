@@ -26,7 +26,7 @@ jobs:
           hugo-version: ${{ env.HUGO_VERSION }}
 
       - name: Build
-        run: hugo --minify
+        run: hugo --minify --baseURL "https://kekaccllab.github.io/hugo-site/"
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
