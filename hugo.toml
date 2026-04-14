@@ -1,8 +1,10 @@
 baseURL = "https://kekaccllab.github.io/hugo-site/"
-languageCode = "ja-jp"
+languageCode = "en-us"
 title = "Kekaccl Lab"
 theme = "ananke"
 canonifyURLs = true
+defaultContentLanguage = "en"
+defaultContentLanguageInSubdir = false
 [taxonomies]
   category = "categories"
   tag = "tags"
