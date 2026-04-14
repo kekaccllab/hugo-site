@@ -23,7 +23,8 @@ jobs:
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@v3
         with:
-          hugo-version: ${{ env.HUGO_VERSION }}
+           hugo-version: '0.160.0'
+    extended: true
 
       - name: Build
         run: hugo --minify --baseURL "https://kekaccllab.github.io/hugo-site/"
