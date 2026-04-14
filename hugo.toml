@@ -1,8 +1,7 @@
-baseURL = 'http://localhost:1313/'
-languageCode = 'en-us'
-title = 'Accelerator Physics Lab - 加速器研究施設'
-theme = 'ananke'
-
+baseURL = "https://kekaccllab.github.io/hugo-site/"
+languageCode = "ja-jp"
+title = "Kekaccl Lab"
+theme = "ananke"
 [taxonomies]
   category = "categories"
   tag = "tags"
@@ -28,5 +27,3 @@ theme = 'ananke'
     name = "Contact"
     url = "/contact/"
     weight = 3
-
-baseURL = "https://kekaccllab.github.io/hugo-site/"
