@@ -26,8 +26,13 @@ jobs:
            hugo-version: '0.160.0'
     extended: true
 
+name: Hugo Modules
+  run: hugo mod init github.com/kekaccllab/hugo-site || true
+  
       - name: Build
-        run: hugo --minify --baseURL "https://kekaccllab.github.io/hugo-site/"
+run: |
+    hugo mod tidy
+    hugo --minify --baseURL "https://kekaccllab.github.io/hugo-site/"
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
