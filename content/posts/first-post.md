@@ -9,3 +9,7 @@ draft: false
 これは私の最初のHugo記事です 😊
 
 GitHub Pagesで公開できました！
+
+## Hugoで画像表示テスト
+
+![Hugo image](/images/roniguitar.jpg)
