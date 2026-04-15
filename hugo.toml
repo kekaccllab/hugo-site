@@ -30,3 +30,8 @@ defaultContentLanguageInSubdir = false
     name = "Contact"
     url = "/contact/"
     weight = 3
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true

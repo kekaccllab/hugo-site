@@ -12,4 +12,6 @@ GitHub Pagesで公開できました！
 
 ## Hugoで画像表示テスト
 
-![Hugo image](/images/roniguitar.jpg)
+<p>
+<img src="/images/roniguitar.jpg" width="50%">
+</p>
